@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.filter::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollY::-webkit-scrollbar {
+    width: 0 !important
+}
